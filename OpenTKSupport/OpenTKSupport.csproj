@@ -24,6 +24,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>NVorbis.OpenTKSupport</AssemblyName>
     <PackageLicenseFile>readme.txt</PackageLicenseFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
@@ -34,8 +36,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NVorbis" Version="0.9.0" />
-    <PackageReference Include="OpenTK" Version="3.0.1" />
+    <PackageReference Include="NVorbis" Version="0.10.0" />
+    <PackageReference Include="OpenTK" Version="3.2.0" />
   </ItemGroup>
 
 </Project>
