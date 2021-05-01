@@ -6,13 +6,13 @@
     <Description>OpenTK support for NVorbis</Description>
     <Company>Renaud Bedard</Company>
     <Copyright>Public Domain</Copyright>
-    <AssemblyVersion>1.4.0</AssemblyVersion>
-    <FileVersion>1.4.0</FileVersion>
+    <AssemblyVersion>1.4.1</AssemblyVersion>
+    <FileVersion>1.4.1</FileVersion>
     <Authors>Renaud Bedard, Andrew Ward</Authors>
-    <Version>1.4.0</Version>
+    <Version>1.4.1</Version>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/NVorbis/OpenTKSupport</PackageProjectUrl>
-    <PackageReleaseNotes>- Update to NVorbis 0.10.0 and OpenTK 3.2.0</PackageReleaseNotes>
+    <PackageReleaseNotes>- Update to NVorbis 0.10.3</PackageReleaseNotes>
     <PackageTags>audio c# .NET sound vorbis OpenTK OpenAL</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NVorbis" Version="0.10.0" />
+    <PackageReference Include="NVorbis" Version="0.10.3" />
     <PackageReference Include="OpenTK" Version="3.2.0" />
   </ItemGroup>
 
